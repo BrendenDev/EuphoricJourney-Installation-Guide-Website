@@ -1,3 +1,26 @@
-h1 {
-    color:red; 
+/*https://www.colourlovers.com/palette/129595/Chocolate_Labrador*/
+
+.header{
+    position:fixed;
+    background-color: rgb(56,35,19);
+    padding-right:500px;
+}
+
+.header_text {
+    color:rgb(241,238,217);
+}
+
+h1.header_text{
+    position:relative;
+    left:2px;
+}
+
+h2.header_text {
+    position:relative;
+    bottom:20px;
+    left:20px
+}
+
+.pixivart {
+    height:200px;
 }
