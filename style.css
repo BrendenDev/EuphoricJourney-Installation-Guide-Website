@@ -1,19 +1,29 @@
 /*https://www.colourlovers.com/palette/129595/Chocolate_Labrador*/
 
+#instructions {
+    display:grid;
+    justify-content:center;
+    align-items: center;
+}
+
 .step{ 
     margin-top:100px;
     line-height:15px;
 }
-
 
 .steptext {
     font-size:25px; 
     color:rgb(234,0,0);
 }
 
+.stepimg {
+    width:750px;
+}
+
 #step1 {
     margin-top:0px;
 }
+
 
 
 /*.header{
