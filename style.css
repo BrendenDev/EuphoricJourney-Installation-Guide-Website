@@ -1,6 +1,22 @@
 /*https://www.colourlovers.com/palette/129595/Chocolate_Labrador*/
 
-.header{
+.step{ 
+    margin-top:100px;
+    line-height:15px;
+}
+
+
+.steptext {
+    font-size:25px; 
+    color:rgb(234,0,0);
+}
+
+#step1 {
+    margin-top:0px;
+}
+
+
+/*.header{
     position:fixed;
     background-color: rgb(56,35,19);
     padding-right:500px;
@@ -23,4 +39,4 @@ h2.header_text {
 
 .pixivart {
     height:200px;
-}
+}*/ 
