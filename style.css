@@ -29,7 +29,26 @@
     margin-top:0px;
 }
 
-
+/* width */
+::-webkit-scrollbar {
+    width: 20px;
+}
+  
+  /* Track */
+::-webkit-scrollbar-track {
+    background: #ffffff;
+}
+  
+  /* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+}
+  
+  /* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
 
 /*.header{
     position:fixed;
