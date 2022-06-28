@@ -1,0 +1,88 @@
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color:#121212;
+}
+
+h1 {
+    color:#627D98;
+    font-family:'Courier New', Courier, monospace;
+    font-size:3em;
+}
+
+img {
+    border-radius:1em;
+}
+
+p {
+    line-height:1.5em;
+}
+
+#instructions {
+    display:grid;
+    justify-content:center;
+    align-items: center;
+}
+
+#list {
+    color:#757575;
+    line-height:50px;
+}
+
+#gallerybutton {
+    text-align:center;
+}
+
+.step {
+    margin-top:50px;
+    line-height:15px;
+    border-radius:3rem;
+    background-color:#1F2933;
+    padding:30px;
+    position: relative;
+    box-shadow: 5px 5px #6483a1;
+    transition: all .4s ease;
+}
+
+.step:hover {
+    box-shadow: 15px 15px #6483a1;
+}
+  
+
+.steptext {
+    font-size:25px; 
+    color:#BDBDBD;
+    font-family:"Lucida Console", "Courier New", monospace;
+}
+
+.stepimg {
+    width:750px;
+}
+
+#step1 {
+    margin-top:0px;
+}
+
+#ramimg {
+    width:400px;
+}
+
+#qualityimg {
+    width:400px;
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+    height: 15px;
+}
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: #121212;
+}
+::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(45deg, #00aeff, #a68eff);
+    border-radius: 10px;
+    -webkit-box-shadow: rgba(0,0,0,.12) 0 3px 13px 1px;
+}

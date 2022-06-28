@@ -1,32 +1,51 @@
-/*https://www.colourlovers.com/palette/129595/Chocolate_Labrador*/
+#home {
+    position:fixed;
+    right:10px;
+    bottom:30px;
+    width:45%
+}
+
+#homeheader{
+    line-height:300%;
+    padding-top:1px;
+    padding-bottom:1px;
+}
+
+iframe {
+    display:fixed;
+    height:69%;
+    width:100%;
+}
+
+#galleryheader{ 
+    position:fixed;
+    line-height:300%;
+    padding-top:1px;
+    padding-bottom:1px;
+    bottom:30px;
+    left:10px;
+    width:45%;
+}
+
+a {
+    text-decoration: none;
+}
 
 body {
     background-color:#121212;
+    overflow:hidden;
+}
+
+html, body{
+    min-height: 100% !important;
+    height: 100%;
 }
 
 h1 {
     color:#627D98;
     font-family:'Courier New', Courier, monospace;
     font-size:3em;
-}
-
-img {
-    border-radius:1em;
-}
-
-p {
-    line-height:1.5em;
-}
-
-#instructions {
-    display:grid;
-    justify-content:center;
-    align-items: center;
-}
-
-#list {
-    color:#757575;
-    line-height:50px;
+    text-align:center;
 }
 
 .step {
@@ -43,28 +62,11 @@ p {
 .step:hover {
     box-shadow: 15px 15px #6483a1;
 }
-  
 
 .steptext {
     font-size:25px; 
     color:#BDBDBD;
     font-family:"Lucida Console", "Courier New", monospace;
-}
-
-.stepimg {
-    width:750px;
-}
-
-#step1 {
-    margin-top:0px;
-}
-
-#ramimg {
-    width:400px;
-}
-
-#qualityimg {
-    width:400px;
 }
 
 ::-webkit-scrollbar {
